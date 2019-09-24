@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdafccd1-fbad-492d-8763-62d3125122f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataProcessing/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/engine-config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataProcessing/Data/ext/01_01_2015_31_08_2019/HNX.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataProcessing/Data/ext/01_01_2015_31_08_2019/HOSE.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataProcessing/Data/ext/01_01_2015_31_08_2019/Index.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataProcessing/Data/ext/01_01_2015_31_08_2019/UPCOM.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataProcessing/dataProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataProcessing/dataProcessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/lstm-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/lstm-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/lstm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/lstm.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/process/engine.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataProcessing/dataProcessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
-              <caret line="144" column="44" selection-start-line="144" selection-start-column="44" selection-end-line="144" selection-end-column="44" />
+            <state relative-caret-position="353">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -29,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/process/engine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="1785">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -39,10 +45,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/process/untitled0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="184" column="14" lean-forward="true" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="14" />
+              <folding>
+                <element signature="e#197#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -94,9 +121,10 @@
         <option value="$PROJECT_DIR$/data-processing/chromedrive.py" />
         <option value="$PROJECT_DIR$/data-processing/data-processing.py" />
         <option value="$PROJECT_DIR$/process/engine-config.ini" />
-        <option value="$PROJECT_DIR$/dataProcessing/dataProcessing.py" />
-        <option value="$PROJECT_DIR$/process/engine.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/process/untitled0.py" />
+        <option value="$PROJECT_DIR$/process/engine.py" />
+        <option value="$PROJECT_DIR$/dataProcessing/dataProcessing.py" />
       </list>
     </option>
   </component>
@@ -121,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,17 +162,28 @@
               <item name="stock-info" type="462c0819:PsiDirectoryNode" />
               <item name="dataProcessing" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="stock-info" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-info" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -203,18 +243,25 @@
       <option name="presentableId" value="Default" />
       <updated>1567090858412</updated>
       <workItem from="1567090864127" duration="19775000" />
-      <workItem from="1567219752917" duration="2436000" />
+      <workItem from="1567219752917" duration="3430000" />
+      <workItem from="1567504418850" duration="431000" />
+      <workItem from="1567593982024" duration="477000" />
+      <workItem from="1567949554931" duration="30000" />
+      <workItem from="1567949641259" duration="445000" />
+      <workItem from="1568443497859" duration="1329000" />
+      <workItem from="1568542627088" duration="1636000" />
+      <workItem from="1569161946600" duration="1136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22211000" />
+    <option name="totallyTimeSpent" value="28689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -227,8 +274,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292517" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3292517" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5028612" side_tool="true" visible="true" weight="0.3292517" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49713877" visible="true" weight="0.3292517" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3292517" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -242,24 +289,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataProcessing/data-processing-config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/process/engine-config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataProcessing/dataProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="144" column="44" selection-start-line="144" selection-start-column="44" selection-end-line="144" selection-end-column="44" />
+        <state relative-caret-position="353">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -268,8 +301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/process/engine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="1785">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -280,6 +313,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/engine-config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataProcessing/data-processing-config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/untitled0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="184" column="14" lean-forward="true" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="14" />
+          <folding>
+            <element signature="e#197#216#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

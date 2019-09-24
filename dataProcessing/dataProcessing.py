@@ -101,9 +101,10 @@ class GetData:
 
         driver.find_element_by_id(self.submit_id).click()
 
+        print("Start download")
         # waits for all the files to be completed and returns the paths
-        paths = WebDriverWait(driver, 120, 1).until(every_downloads_chrome)
-        print(paths)
+        paths = WebDriverWait(driver, 240, 1).until(every_downloads_chrome)
+        print("Downloaded. Path: {}".format(paths))
 
         # unzip file
         zip_output_path = path + "/Data/ext"
@@ -165,6 +166,7 @@ if __name__ == '__main__':
     today = today.strftime("%d/%m/%Y")
     path = os.getcwd()
     output_path = path+"/Data/zip"
-    paths = instance.get_data_from_web("", "01/01/2015", today, output_path)
+    start_date = "01/01/2009"
+    paths = instance.get_data_from_web("", start_date, today, output_path)
     print(paths)
 
