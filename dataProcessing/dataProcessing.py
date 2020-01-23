@@ -166,7 +166,7 @@ if __name__ == '__main__':
     today = today.strftime("%d/%m/%Y")
     path = os.getcwd()
     output_path = path+"/Data/zip"
-    start_date = "01/01/2009"
+    start_date = "01/01/2017"
     paths = instance.get_data_from_web("", start_date, today, output_path)
     print(paths)
 
